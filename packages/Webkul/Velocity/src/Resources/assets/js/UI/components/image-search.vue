@@ -1,7 +1,7 @@
 <template>
     <div class="d-inline-block image-search-container" v-if="status == 'true'">
         <label for="image-search-container">
-            <i class="icon camera-icon"></i>
+            <!-- <i class="icon camera-icon"></i> -->
 
             <input
                 type="file"

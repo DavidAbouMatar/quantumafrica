@@ -1,6 +1,6 @@
 <template>
     <div class="btn-group full-width force-center">
-        <div class="selectdiv">
+        <!-- <div class="selectdiv">
             <select
                 class="form-control fs13 styled-select"
                 name="category"
@@ -33,7 +33,7 @@
             <div class="select-icon-container d-inline-block float-right">
                 <span class="select-icon rango-arrow-down"></span>
             </div>
-        </div>
+        </div> -->
 
         <input
             required

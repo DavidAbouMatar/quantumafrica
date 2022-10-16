@@ -4,11 +4,11 @@ return [
     'default' => 'default',
 
     'themes' => [
-        'default' => [
-            'views_path' => 'resources/themes/default/views',
-            'assets_path' => 'public/themes/default/assets',
-            'name' => 'Default'
-        ],
+        // 'default' => [
+        //     'views_path' => 'resources/themes/default/views',
+        //     'assets_path' => 'public/themes/default/assets',
+        //     'name' => 'Default'
+        // ],
 
         // 'bliss' => [
         //     'views_path' => 'resources/themes/bliss/views',

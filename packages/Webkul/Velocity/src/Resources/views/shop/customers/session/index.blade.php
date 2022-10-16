@@ -25,13 +25,13 @@
 
                     <div class="body col-12">
                         <div class="form-header">
-                            <h3 class="fw6">
+                            {{-- <h3 class="fw6">
                                 {{ __('velocity::app.customer.login-form.registered-user')}}
                             </h3>
 
                             <p class="fs16">
                                 {{ __('velocity::app.customer.login-form.form-login-text')}}
-                            </p>
+                            </p> --}}
                         </div>
 
                         <form
@@ -45,7 +45,7 @@
 
                             <div class="form-group" :class="[errors.has('email') ? 'has-error' : '']">
                                 <label for="email" class="mandatory label-style">
-                                    {{ __('shop::app.customer.login-form.email') }}
+                                    {{-- {{ __('shop::app.customer.login-form.email') }} --}}
                                 </label>
 
                                 <input
@@ -72,11 +72,11 @@
                                     v-validate="'required'"
                                     value="{{ old('password') }}"
                                     data-vv-as="&quot;{{ __('shop::app.customer.login-form.password') }}&quot;" />
-                                <input type="checkbox" onclick="myFunction()" id="shoPassword" class="show-password"> {{ __('shop::app.customer.login-form.show-password') }}  
+                                <input type="checkbox" onclick="myFunction()" id="shoPassword" class="show-password"> {{ __('shop::app.customer.login-form.show-password') }}
                                 <span class="control-error" v-if="errors.has('password')" v-text="errors.first('password')"></span>
 
                                 <a href="{{ route('customer.forgot-password.create') }}" class=" show-password float-right">
-                                    {{ __('shop::app.customer.login-form.forgot_pass') }}  
+                                    {{ __('shop::app.customer.login-form.forgot_pass') }}
                                 </a>
 
                                 <div class="mt10">
@@ -112,7 +112,7 @@
 {!! Captcha::renderJS() !!}
 
 <script>
-    $(function(){       
+    $(function(){
         $(":input[name=email]").focus();
     });
 
@@ -124,7 +124,7 @@
                 x.type = "password";
             }
         }
-    
+
     </script>
 
 @endpush

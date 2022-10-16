@@ -143,7 +143,7 @@
                             </div>
                         @endif
 
-                        {!! view_render_event('bagisto.shop.customers.signup_form_controls.after') !!}
+                        {!! view_render_event('bagisto.shop.customers.signup_form_controls.before') !!}
 
                         <button class="theme-btn" type="submit">
                             {{ __('shop::app.customer.signup-form.title') }}

@@ -4,7 +4,7 @@
     <div class="d-inline-block welcome-content dropdown-toggle">
         <i class="material-icons align-vertical-top">perm_identity</i>
 
-        <span class="text-center">
+        {{-- <span class="text-center">
             {{ __('velocity::app.header.welcome-message', [
                     'customer_name' => auth()->guard('customer')->user()
                         ? auth()->guard('customer')->user()->first_name
@@ -12,7 +12,7 @@
                     ]
                 )
             }}
-        </span>
+        </span> --}}
 
         <span class="rango-arrow-down"></span>
     </div>
